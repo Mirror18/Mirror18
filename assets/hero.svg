@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="MIRROR18 // operator profile">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060A"/>
+      <stop offset="0.55" stop-color="#080B12"/>
+      <stop offset="1" stop-color="#05060A"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#00F0FF" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#9D4EDD" stop-opacity="0.9"/>
+      <stop offset="0.8" stop-color="#FF2E97" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FF2E97" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="0.12" cy="0.1" r="0.55">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowM" cx="0.92" cy="0.95" r="0.5">
+      <stop offset="0" stop-color="#FF2E97" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FF2E97" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#12233D" stroke-opacity="0.55"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#FFFFFF" fill-opacity="0.022"/>
+    </pattern>
+    <clipPath id="g1">
+      <rect x="0" y="132" width="1280" height="7"/>
+      <rect x="0" y="168" width="1280" height="5"/>
+      <rect x="0" y="198" width="1280" height="9"/>
+      <rect x="0" y="228" width="1280" height="4"/>
+    </clipPath>
+    <clipPath id="g2">
+      <rect x="0" y="150" width="1280" height="6"/>
+      <rect x="0" y="186" width="1280" height="8"/>
+      <rect x="0" y="214" width="1280" height="5"/>
+      <rect x="0" y="240" width="1280" height="6"/>
+    </clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .hero { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-weight: 800; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)" opacity="0.75"/>
+  <rect width="1280" height="360" fill="url(#glowC)"/>
+  <rect width="1280" height="360" fill="url(#glowM)"/>
+  <rect width="1280" height="360" fill="url(#scan)"/>
+
+  <!-- HUD frame -->
+  <g stroke="#00F0FF" stroke-opacity="0.5" fill="none" stroke-width="1.5">
+    <path d="M24 56V24h32"/>
+    <path d="M1224 24h32v32"/>
+    <path d="M1256 304v32h-32"/>
+    <path d="M56 336H24v-32"/>
+  </g>
+  <rect x="0" y="0" width="1280" height="3" fill="url(#rule)"/>
+
+  <text x="72" y="64" class="mono" font-size="13" letter-spacing="3" fill="#6E80A3">SYS://OPERATOR_PROFILE&#160;&#160;&#183;&#160;&#160;NODE: DSH&#160;&#160;&#183;&#160;&#160;BUILD 2026.11</text>
+  <text x="1208" y="64" class="mono" font-size="13" letter-spacing="2" text-anchor="end" fill="#39FF14">&#9679; ONLINE</text>
+
+  <!-- glitch title -->
+  <text x="72" y="212" class="hero" font-size="98" letter-spacing="6" fill="#F2F5FF">MIRROR18</text>
+  <g clip-path="url(#g1)">
+    <text x="64" y="212" class="hero" font-size="98" letter-spacing="6" fill="#FF2E97" fill-opacity="0.85">MIRROR18</text>
+  </g>
+  <g clip-path="url(#g2)">
+    <text x="82" y="212" class="hero" font-size="98" letter-spacing="6" fill="#00F0FF" fill-opacity="0.85">MIRROR18</text>
+  </g>
+
+  <text x="74" y="258" class="mono" font-size="18" letter-spacing="3" fill="#8FA3C4">BACKEND &#215; MINI-PROGRAM &#215; AGENT INFRASTRUCTURE</text>
+
+  <text x="74" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">JAVA</text>
+  <text x="132" y="310" class="mono" font-size="13" fill="#3A4A66">/</text>
+  <text x="152" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">SPRING</text>
+  <text x="236" y="310" class="mono" font-size="13" fill="#3A4A66">/</text>
+  <text x="256" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">VUE</text>
+  <text x="306" y="310" class="mono" font-size="13" fill="#3A4A66">/</text>
+  <text x="326" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">TYPESCRIPT</text>
+  <text x="446" y="310" class="mono" font-size="13" fill="#3A4A66">/</text>
+  <text x="466" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">PYTHON</text>
+  <text x="546" y="310" class="mono" font-size="13" fill="#3A4A66">/</text>
+  <text x="566" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">DOCKER</text>
+  <text x="646" y="310" class="mono" font-size="13" fill="#3A4A66">/</text>
+  <text x="666" y="310" class="mono" font-size="13" letter-spacing="2" fill="#00F0FF" fill-opacity="0.85">LINUX</text>
+
+  <!-- barcode -->
+  <g fill="#00F0FF" fill-opacity="0.55">
+    <rect x="1006" y="288" width="3" height="34"/>
+    <rect x="1013" y="288" width="2" height="34"/>
+    <rect x="1019" y="288" width="5" height="34"/>
+    <rect x="1028" y="288" width="2" height="34"/>
+    <rect x="1034" y="288" width="4" height="34"/>
+    <rect x="1042" y="288" width="2" height="34"/>
+    <rect x="1048" y="288" width="6" height="34"/>
+    <rect x="1058" y="288" width="2" height="34"/>
+    <rect x="1064" y="288" width="3" height="34"/>
+    <rect x="1071" y="288" width="5" height="34"/>
+    <rect x="1080" y="288" width="2" height="34"/>
+    <rect x="1086" y="288" width="4" height="34"/>
+    <rect x="1094" y="288" width="2" height="34"/>
+    <rect x="1100" y="288" width="3" height="34"/>
+    <rect x="1107" y="288" width="6" height="34"/>
+    <rect x="1117" y="288" width="2" height="34"/>
+    <rect x="1123" y="288" width="4" height="34"/>
+    <rect x="1131" y="288" width="2" height="34"/>
+    <rect x="1137" y="288" width="3" height="34"/>
+    <rect x="1144" y="288" width="5" height="34"/>
+  </g>
+  <text x="1160" y="316" class="mono" font-size="12" letter-spacing="2" fill="#4E5F7E">MIRROR18-2026</text>
+
+  <text x="1236" y="150" class="mono" font-size="12" letter-spacing="3" fill="#4E5F7E" transform="rotate(90 1236 150)">// OPERATOR FILE 01</text>
+</svg>
